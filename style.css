@@ -1,0 +1,20 @@
+body{
+    background-image: url("background.jpg");
+}
+.head1{
+    font-size: 35px;
+    box-shadow: 20px 14px 10px 6px lightslategrey;
+}
+.btn1{
+    font-size: 20px;
+    box-shadow: 20px 14px 10px 6px lightslategrey;
+}
+canvas{
+    animation-name:wew;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+@keyframes wew{
+    from{box-shadow: 4px 4px 4px 4px rgb(12, 136, 245);}
+    to{box-shadow: 4px 4px 4px 4px rgb(20, 7, 163);}
+}
